@@ -1,0 +1,86 @@
+* {
+    margin: 0 auto;
+    width: 800px;
+    text-decoration-line: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+button {
+    width: 300px;
+    height: 30px;
+   margin-top: 20px;
+    display: block;
+    border-radius: 20px;
+    background-color: none;
+    color: lightsalmon;
+    font-weight: bold;
+    border: none;
+
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 630px;
+    margin-left: 20px;
+}
+
+
+.header_nav {
+    padding-bottom: 30px;
+}
+
+.header_LOGO {
+    padding: 50px 0;
+    text-align: center;
+    color: lightsalmon;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.header_nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_nav li {
+    font-size: 20px;
+}
+
+.MainPage {
+    width: 800px;
+    background-color: bisque;
+    text-align: center;
+}
+
+.NotiList {
+    width: 800px;
+    background-color: bisque;
+
+}
+
+.NotiList>h1 {
+    text-align: center;
+}
+
+
+
+.NotiWrite {
+    width: 800px;
+    background-color: bisque;
+    text-align: center;
+}
+
+.NotiWrite>ul>li {
+    text-align: start;
+}
+
+h1 {
+    padding: 20px 0;
+}
